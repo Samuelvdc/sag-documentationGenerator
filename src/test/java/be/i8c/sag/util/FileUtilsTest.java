@@ -46,19 +46,19 @@ public class FileUtilsTest {
     /**
      * Get the location of the library file
      */
-    @Test
+    /*@Test
     public void testGetLibraryFile() {
         File file = FileUtils.getJarFile();
         Assert.assertNotNull(file);
         Assert.assertTrue(file.exists());
     }
-
+*/
     /**
      * Extract the 'assets' folder from within the jar
      *
      * @throws IOException When the files could not be extracted
      */
-    @Test
+    /*@Test
     public void testExtractAssets() throws IOException {
         File outputResource = new File(TestingUtils.getOutputDir(), "resources");
         if (outputResource.exists())
@@ -67,7 +67,7 @@ public class FileUtilsTest {
         FileUtils.extractAssets(outputResource);
         Assert.assertNotNull(outputResource.listFiles());
         Assert.assertTrue(outputResource.listFiles().length > 0);
-    }
+    }*/
 
     /**
      * Create a temporary FOP config file
